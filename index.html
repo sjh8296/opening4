@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            font-family: 'Arial', sans-serif;
+        }
+        h1 {
+            margin-bottom: 50px;
+        }
+        .bucketlist {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .item {
+            position: relative;
+            margin: 10px;
+        }
+        .item img {
+            width: auto; /* 이미지의 원래 너비를 유지합니다 */
+            height: auto; /* 이미지의 원래 높이를 유지합니다 */
+        }
+        .item .desc {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>2024년 나의 버킷리스트</h1>
+    <div class="bucketlist">
+        <div class="item">
+            <img src="1.png" alt="Bucketlist Item 1">
+            <div class="desc">해외여행</div>
+        </div>
+        <div class="item">
+            <img src="2.png" alt="Bucketlist Item 1">
+            <div class="desc">토익 800점</div>
+        </div>
+        <div class="item">
+            <img src="3.png" alt="Bucketlist Item 1">
+            <div class="desc">Iten 1 Description</div>
+        </div>
+        <div class="item">
+            <img src="4.png" alt="Bucketlist Item 1">
+            <div class="desc">Item 1 Description</div>
+        </div>
+        <div class="item">
+            <img src="5.png" alt="Bucketlist Item 1">
+            <div class="desc">Item 1 Description</div>
+        </div>
+        <div class="item">
+            <img src="6.png" alt="Bucketlist Item 1">
+            <div class="desc">Item 1 Description</div>
+        </div>
+        <!-- 다른 항목들을 이곳에 추가하세요 -->
+    </div>
+</body>
+</html>
